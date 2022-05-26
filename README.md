@@ -19,3 +19,5 @@ https://docs.microsoft.com/en-us/fluent-ui/web-components/
 https://kor-ui.com/introduction/welcome
 
 https://wiredjs.com/
+
+https://bendera.github.io/vscode-webview-elements/pages/getting-started/
