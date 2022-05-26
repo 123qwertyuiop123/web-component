@@ -8,12 +8,12 @@ class MyComponent extends LitElement{
     static properties = {
         count:{},
     }
-    // 写css
+    // 写css css传递通过css变量
     static styles = css`
     div{
         width:100px;
         height:100px;
-        background-color:skyblue;
+        background-color:var(--bgc);
     }
     `;
     constructor(){
@@ -90,7 +90,6 @@ class Counter extends HTMLElement {
         </style>
         <button class="btn">${this.count}</botton>
         `
-        console.log(this.btn)
         this.btn = this.shadowRoot.querySelector('button')
         // 不会触发页面的刷新
         this.btn.addEventListener('click', () => this.count++)
