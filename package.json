@@ -1,0 +1,19 @@
+{
+  "name": "web-component",
+  "version": "1.0.0",
+  "description": "了解web-component # github在线编辑器 在github.com前加上gitpod.io/#即可 例如https://gitpod.io/#github.com/123qwertyuiop123/web-component # web-component npm库 lit 网址：https://lit.dev/ # web-component ui库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123qwertyuiop123/web-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123qwertyuiop123/web-component/issues"
+  },
+  "homepage": "https://github.com/123qwertyuiop123/web-component#readme"
+}
