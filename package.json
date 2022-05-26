@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/123qwertyuiop123/web-component/issues"
   },
-  "homepage": "https://github.com/123qwertyuiop123/web-component#readme"
+  "homepage": "https://github.com/123qwertyuiop123/web-component#readme",
+  "dependencies": {
+    "lit": "^2.2.5"
+  }
 }
