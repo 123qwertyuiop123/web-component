@@ -1,10 +1,40 @@
 // 借助工具
 import {LitElement, html ,css} from "lit";
-import { customElement,property } from 'lit/decorators';
 
 
+class MyComponent extends LitElement{
 
+    // 写属性
+    static properties = {
+        count:{},
+    }
+    // 写css
+    static styles = css`
+    div{
+        width:100px;
+        height:100px;
+        background-color:skyblue;
+    }
+    `;
+    constructor(){
+        super()
+        this.count = 0;
+    }
+    addCount(){
+        this.count++;
+    }
 
+    // 渲染函数
+    render(){
+        return html`
+        <div @click=${this.addCount}>
+        ${this.count}
+        <slot></slot>
+        </div>
+        `
+    }
+}
+customElements.define('my-component', MyComponent)
 
 
 // 原生写法

@@ -18,5 +18,8 @@
   "homepage": "https://github.com/123qwertyuiop123/web-component#readme",
   "dependencies": {
     "lit": "^2.2.5"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
   }
 }
